@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M3MOVIES</title>
+    <link rel="icon" href="m3movies.png">
+<style>
+    ul{
+        list-style-type: none;
+        background-color: white;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+    }
+    li{
+        float: left;
+    }
+    li a{
+        text-decoration: none;
+        color: black;
+        display: block;
+        padding: 20px;
+        text-overflow: none;
+    }
+    .box1{
+        height: 30px;
+        width: 200px;
+        background-color: white;
+        margin: auto;
+        margin-top: 15px;
+        margin-left: 1120px;
+        border-radius: 5%;
+        border-style: solid;
+        border-width:0.5px;
+    }
+    .box2{
+        height: 550px;
+        width: 1400px;
+        background-color: white;
+        margin: auto;
+     
+          }
+          .box3{
+            height: 60px;
+            width: 1400px;
+            background-color:rgb(81, 91, 143);
+           margin-left: 50px;
+
+           }
+           button{
+            height: 50px;
+            width: 150px;
+            background-color:rgb(81, 91, 143);
+            color: white;
+            border-radius: 8%;
+           }
+
+           button a{
+            text-decoration: none;
+            color: black;
+           }
+
+           .box4{
+            height: 500px;
+            width:1400px ;
+            background-color: white;
+            margin-left: 60px;
+            margin-top: 15px;
+           }
+
+           .box5, .box6, .box7, .box8, .box9, .box10,.box11,.box12,
+             .box13,.box14,.box15,.box16,.box17,.box18,.box19,.box20,
+
+             .box22,.box23,.box24,.box25,.box26,.box27,.box28,.box29,
+             .box30,.box31,.box32,.box33,.box34,.box35,.box36,.box37,
+
+             .box39,.box40 ,.box41,.box42,.box43,.box44,.box45,.box46,
+             .box47,.box48,.box49,.box50 ,.box51,.box52,.box53,.box54
+            {
+            height: 210px;
+            width: 150px;
+            background-color: black;
+            float: left;
+            margin-top: 20px;
+            margin-left: 22px; 
+           }
+           
+           .box21{
+            height: 500px;
+            width:1400px ;
+            background-color: white;
+            margin-left: 60px;
+            margin-top: 15px;
+           }
+           
+           .box38{
+            height: 500px;
+            width:1400px ;
+            background-color: white;
+            margin-left: 60px;
+            margin-top: 15px;
+           }
+           
+           .box55{
+            height: 500px;
+            width:1500px ;
+            background-color: rgb(51, 51, 53);
+            margin-left: 0px;
+            margin-top: 20px;
+           }
+           .box56{
+            height:450px;
+            width:150px;
+            background-color: rgb(51, 51, 53);
+            color: white;
+            float: left;
+            margin-top: 20px;
+            margin-left: 20px;
+           }
+           .box57{
+            height:450px;
+            width:260px;
+            background-color: rgb(51, 51, 53);
+            color: white;
+            float: left;
+            margin-top: 20px;
+            margin-left: 20px;
+           }
+           .box58{
+            height:450px;
+            width:260px;
+            background-color: rgb(51, 51, 53);
+            color: white;
+            float: left;
+            margin-top: 20px;
+            margin-left: 20px;
+           }
+           .box59{
+            height:200px;
+            width:400px;
+            background-color: rgb(51, 51, 53);
+            color: white;
+            float: left;
+            margin-top: 20px;
+            margin-left: 20px;
+           }
+           .box60{
+            height:450px;
+            width:260px;
+            background-color: rgb(51, 51, 53);
+            color: white;
+            float: left;
+            margin-top: 20px;
+            margin-left: 20px;
+           } 
+           .box61{
+            height:50px;
+            width:300px;
+            background-color:white;
+            float: left;
+            margin-top: 20px;
+            margin-left: 0px;
+            border-radius:10% ;
+           }
+
+           .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            gap: 22px;
+        }
+        .responsive {
+        width: 100%;
+        height: auto;   
+        }
+        
+   @media screen and (max-width: 768px) {
+    .box1{
+        height: 30px;
+        width: 200px;
+        background-color: white;
+        margin: auto;
+        margin-top: 15px;
+        margin-left: 280px;
+        border-radius: 5%;
+        border-style: solid;
+        border-width:0.5px;
+    }
+    .box2{
+        height: 550px;
+        width: 80px;
+        background-color: white;
+        margin: auto;
+     
+          }
+          .box3{
+            height: 60px;
+            width: 700px;
+            background-color:rgb(81, 91, 143);
+           
+
+           }
+           button{
+            height: 50px;
+            width: 150px;
+            background-color:rgb(81, 91, 143);
+            color: white;
+            border-radius: 8%;
+        
+           }
+           button a{
+            text-decoration: none;
+            color: black;
+           }
+        .box-container {
+                justify-content: center;
+            }
+            .box4,.box21,.box38{
+                margin-top: 15px;
+                margin-left: 20px;
+                height: 500px;
+                width:160px ; 
+                background-color: white;
+                margin-left: 60px;
+                margin-top: 15px;
+           
+            }
+             .box5, .box6, .box7, .box8, .box9, .box10,.box11,.box12,
+             .box13,.box14,.box15,.box16,.box17,.box18,.box19,.box20,
+
+             .box22,.box23,.box24,.box25,.box26,.box27,.box28,.box29,
+             .box30,.box31,.box32,.box33,.box34,.box35,.box36,.box37,
+
+             .box39,.box40 ,.box41,.box42,.box43,.box44,.box45,.box46,
+             .box47,.box48,.box49,.box50 ,.box51,.box52,.box53,.box54
+            {
+                width:370px;
+                height: 210px;
+                display: white;
+                float: left;
+                margin: auto;
+                margin-top: 20px;
+                margin-left: 50px;
+                background-color: white;
+            }
+            
+          .box56,.box57,.box58,.box59,.box60{
+                height:450px;
+                width:1400px;
+                background-color: rgb(51, 51, 53);
+                color: white;
+                float: left;
+                margin-top: 0px;
+                margin-left: 0px;
+           }
+           .box61{
+            height:50px;
+            width:660px;
+            background-color:white;
+            float: left;
+            margin-top: -10px;
+            border-radius:8% ;
+           }
+           .box55{
+            margin-top: 15px;
+                margin-left: 20px;
+                height: 500px;
+                width:1000px ; 
+                background-color: white;
+                margin-left: 60px;
+                margin-top: 15px;
+           
+
+           }
+            li {
+                float: none;
+                text-align: center;
+            }
+        }
+        .responsive {
+        width: 100%;
+        height: 100%;   
+
+        }
+         </style>
+</head>
+<body>
+    <ul>
+    <li><a href="index.html"><img src="m3movies.png" style="width: 25px;height: 25px;">M3MOVIES<br>enjoy whatching movies online</a></li>
+    <li><a href="li">GENRES</a></li>
+    <li><a href="li">COUNTRY</a></li>
+    <li><a href="li">MOVIES</a></li>
+    <li><a href="li">TV-SEIRS</a></li>
+    <div class="box1" style="border-radius: 5%;"><img src="search.png" style="float: left; width:15px; height:15px; margin-top:7px;margin-left: 5px;" >
+    
+        <li><a href="li" style="height:15px; width:3px;margin: auto;
+        float:left;margin-top: -15px;margin-left: -10px;padding: 20px;">Search</a></li>
+</ul>    
+    </div>
+    <div class="box2">
+        <img src="img/red-one.jpg"  class="receive"  width="1400" height="100%" ></img>
+        <ul><li>Like and Share our website to support us.</li>
+        </ul>
+    </div>
+    <div class="box3">
+       <li style="color: white;text-decoration: none;overflow: hidden;text-overflow: none ;padding: 20px;">Ads can be a pain, but they are our only way to maintain the server. Your patience is highly appreciated and we hope our service can be worth it.</li>
+    </div>
+    <button style="margin-left:80px;margin-top: 25px;">Suggestions</button>
+    <div class="box4" style="margin-top: 0px;">
+
+        <div class="box5"> <a href="movie-page.html" target="_blank" >
+            <img src="img/red-one-1.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></a></img></div>
+
+        <div class="box6"><a href="movie-page2.html" target="_blank" >
+            <img src="img/venom-the-last-dance.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></a></img></div>
+
+        <div class="box7"><img src="img/conclave.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box8"><img src="img/we-live-in-time.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box9"><img src="img/the-killer.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box10"><a href="movie-page3.html" target="_blank" >
+
+        <img src="img/gladiator-ii.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></a></img></div>
+        <div class="box11"><img src="img/heretic.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box12"><img src="img/megalopolis.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box13"><img src="img/my-old-ass.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box14"><img src="img/joker-folie-a-deux.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box15"><img src="img/alien-romulus.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box16"><img src="img/the-apprentice.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box17"><img src="img/beetlejuice-beetlejuice.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box18"><img src="img/saturday-night.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box19"><img src="img/twisters.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box20"><img src="img/deadpool-wolverine.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+    </div>
+    <button style="margin-left: 80px;margin-top: 25px;">Latest Movies</button>
+    <div class="box21" style="margin-top: -5px;">
+        <div class="box22"><img src="img/the-hunter-s-anthology-the-demon-hunter.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box23"><img src="img/maria.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box24"><img src="img/looking-for-mr-goodbar.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box25"><a href="movie-page.html" target="_blank" >
+            <img src="img/red-one-1.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></a></img></div>
+        <div class="box26"><img src="img/the-adventures-of-jurassic-pet-return-to-the-wild.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box27"><img src="img/senn.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box28"><img src="img/the-hunter-s-anthology-the-demon-hunter.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box29"><img src="img/the-vord.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box30"><img src="img/tide.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box31"><img src="img/the-best-christmas-pageant.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box32"><img src="img/carbon.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box33"><img src="img/chasing-red.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box34"><img src="img/jamie-foxx-what-had-happened-was.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box35"><a href="movie-page2.html" target="_blank" >
+            <img src="img/venom-the-last-dance.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></a></img></div>
+        <div class="box36"><img src="img/an-evening-with-dua-lipa.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box37"><img src="img/sugarplummed.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+    </div>
+    <button style="margin-left: 80px;margin-top: 25px;"> Latest TV-Series</button>
+    <div class="box38" style="margin-top: -5px;">
+        <div class="box39"><img src="img/bookie-season-2.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box40"><img src="img/the-agency-season-1.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box41"><img src="img/the-day-of-the-jackal-season-1.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box42"><img src="img/silo-season-2.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box43"><img src="img/elsbeth-season-2.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box44"><img src="img/dexter-original-sin-season-1.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box45"><img src="img/before-season-1.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box46"><img src="img/georgie-and-mandy-s-first-marriage-season-1.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box47"><img src="img/light-shop-season-1.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box48"><img src="img/the-curse-of-oak-island-season-12.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box49"><img src="img/creature-commandos-season-1.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box50"><img src="img/bad-sisters-season-2.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box51"><img src="img/star-trek-lower-decks-season-5.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box52"><img src="img/fbi-most-wanted-season-2.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box53"><img src="img/secret-level-season-1.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+        <div class="box54"><img src="img/star-wars-skeleton-crew-season-1.jpg" style="height:210px;width:150px;margin:auto;
+        float: left;"></img></div>
+
+    </div>
+    <div class="box55">
+        <div class="box56">
+            <h2>M3movies</h2><br>
+            <p>MOVIES</p>
+            <p>TV-SERIES</p>
+            <p>FAQ'S</p>
+            <a href="DMCA.html" target="_blank" style="color: white;" ><p>DMCA</p></a>
+        </div>
+        <div class="box57">
+            <h2>GENRES</h2><br>
+            <p>COMEDY</p>
+            <p>DRAMA</p>
+            <p>THRILLER</p>
+            <P>CRIME</p>
+            <P>MYSTERY</P>
+        </div>
+        <div class="box58">
+            <h2>COUNTRY</h2><br>
+            <p>UNITED STATES</p>
+            <p>FRANCE</p>
+            <p>UNITED KINGDOM</p>
+            <p>SOUTH KOREA</p>
+            <p>COLOMBIA</p>
+        </div>
+    
+        <div class="box59">
+            <p><h2>SUBSCRIBE</h2><br></p>
+            <p>Subscribe to the M3Movies mailing list to receive updates on movies, tv-series and news of top movies.</p>
+            <div class="box61"><p style="color: black;margin-top: 15px;margin-left: 5px;">put your email</p>
+            <button style="float: right;margin-top: -49px;">Subscribe</button></div>
+        </div>
+          <div class="box60">
+            <p>M3Movies - Watch Movies Online For Free and Download the latest movies without Registration at M3Moviesfree.net<br>
+                Disclaimer: This site does not store any files on its server. All contents are provided by non-affiliated third parties.</a></p>
+          </div>
+    </div>
+
+
+</body>
+</html>
